@@ -42,7 +42,6 @@ jobs:
 
      - uses: webbertakken/unity-builder@v1.5
        with:
-         unityVersion: 2018.4.30f1-webgl-update-2020-12-09
          targetPlatform: WebGL
 
      - uses: actions/upload-artifact@v3
